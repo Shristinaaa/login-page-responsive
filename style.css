@@ -58,7 +58,7 @@ input {
 
 .formcontent input:last-child {
   background-color: orange;
-  width: 25%;
+  width: 120px;
   border-radius: 60px;
   padding: 13px 25px 13px 25px;
   border: none;
