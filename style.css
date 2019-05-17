@@ -87,6 +87,7 @@ input {
   .register {
     width: 75%;
     margin: auto;
+    border-radius: 20px;
   }
 
   .formcontent input:last-child {
