@@ -33,6 +33,10 @@ body {
   margin-bottom: 36px;
 }
 
+.join p {
+  margin-bottom: 30px;
+}
+
 .round {
   width: 7%;
   height: 400px;
@@ -112,5 +116,9 @@ input {
 
   .formcontent input:last-child {
     margin: 10px 0;
+  }
+
+  .join p {
+    margin-bottom: 20px;
   }
 }
