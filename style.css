@@ -98,7 +98,7 @@ input {
 
   .register {
     width: 75%;
-    margin: auto;
+    margin: -24px auto;
     border-radius: 20px;
   }
 
