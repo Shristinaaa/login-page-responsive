@@ -1,7 +1,5 @@
 :root {
-  --main-bg-color: linear-gradient(to right, #ed6437
-, #f19938
-);
+  --main-bg-color: linear-gradient(to right, #ed6437, #f19938);
   --secondary-bg-color: rgb(243, 236, 236);
   --primary-font: white;
 }
@@ -20,8 +18,8 @@ body {
 .join {
   color: var(--primary-font);
   text-align: center;
-  width: 36%;
-  margin-top: 50px;
+  width: 32%;
+  margin: 50px 0 0 106px;
 }
 
 .about {
@@ -31,15 +29,21 @@ body {
 }
 
 .join h1 {
-  transform: rotate(90deg) scale(2, 2.5);
+  transform: rotate(90deg) scale(1.8, 2.5);
   margin-bottom: 36px;
 }
 
+.join p {
+  margin-bottom: 30px;
+}
+
 .round {
-  width: 8%;
+  width: 7%;
+  height: 400px;
   background-color: var(--secondary-bg-color);
   border-radius: 50% 0 0 50%;
-  margin-left: 45px;
+  margin-left: 21px;
+  position: relative;
 }
 .formcontent {
   text-align: center;
@@ -53,9 +57,8 @@ input {
 }
 
 .formcontent input:not(:last-child) {
-  width: 85%;
+  width: 90%;
   padding: 5px 0 5px 0;
-  margin-right: 100px;
 }
 
 .formcontent input:last-child {
@@ -72,7 +75,10 @@ input {
 
 .register {
   background: var(--secondary-bg-color);
-  width: 40%;
+  width: 35%;
+  border-radius: 5% 0 0 5%;
+  position: absolute;
+  right: 12%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -84,6 +90,10 @@ input {
   .join {
     margin: 55px auto;
     width: 90%;
+  }
+
+  .round {
+    display: none;
   }
 
   .register {
@@ -106,5 +116,9 @@ input {
 
   .formcontent input:last-child {
     margin: 10px 0;
+  }
+
+  .join p {
+    margin-bottom: 20px;
   }
 }
